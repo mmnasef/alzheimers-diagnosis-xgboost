@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "model": "XGBoost Baseline",
+        "date": "2025-12-24 19:24:17",
+        "test_size": 164
+    },
+    "overall_metrics": {
+        "accuracy": 0.926829268292683,
+        "precision": 0.9239787005308071,
+        "recall": 0.926829268292683,
+        "f1_score": 0.9250366885839895
+    },
+    "confusion_matrix": [
+        [
+            117,
+            1,
+            0
+        ],
+        [
+            4,
+            20,
+            3
+        ],
+        [
+            0,
+            4,
+            15
+        ]
+    ],
+    "per_class_report": {
+        "Normal": {
+            "precision": 0.9669421487603306,
+            "recall": 0.9915254237288136,
+            "f1-score": 0.9790794979079498,
+            "support": 118.0
+        },
+        "MCI": {
+            "precision": 0.8,
+            "recall": 0.7407407407407407,
+            "f1-score": 0.7692307692307693,
+            "support": 27.0
+        },
+        "AD": {
+            "precision": 0.8333333333333334,
+            "recall": 0.7894736842105263,
+            "f1-score": 0.8108108108108109,
+            "support": 19.0
+        },
+        "accuracy": 0.926829268292683,
+        "macro avg": {
+            "precision": 0.8667584940312213,
+            "recall": 0.8405799495600269,
+            "f1-score": 0.85304035931651,
+            "support": 164.0
+        },
+        "weighted avg": {
+            "precision": 0.9239787005308071,
+            "recall": 0.926829268292683,
+            "f1-score": 0.9250366885839895,
+            "support": 164.0
+        }
+    }
+}
