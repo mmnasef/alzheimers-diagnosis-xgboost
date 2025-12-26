@@ -1,7 +1,5 @@
 # Virtual Environment
 .venv/
-venv/
-env/
 
 # Python cache
 __pycache__/
@@ -17,6 +15,5 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Outputs
-results/
-models/*.json
+# Ignore heavy models only
+models/

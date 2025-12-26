@@ -1,0 +1,192 @@
+{
+  "timestamp": "2025-12-26 15:29:32",
+  "total_combinations_tested": 1296,
+  "duration_minutes": 0.67,
+  "baseline": {
+    "parameters": {
+      "learning_rate": 0.03,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "cv_accuracy": 0.8948415452232247,
+    "cv_std": 0.01537307567962257,
+    "test_accuracy": 0.926829268292683
+  },
+  "optimized": {
+    "parameters": {
+      "colsample_bytree": 0.7,
+      "gamma": 0.2,
+      "learning_rate": 0.1,
+      "max_depth": 4,
+      "min_child_weight": 5,
+      "subsample": 0.7
+    },
+    "cv_accuracy": 0.9024520009252834,
+    "test_accuracy": 0.926829268292683
+  },
+  "improvement": {
+    "cv_accuracy": 0.00761045570205876,
+    "test_accuracy": 0.0,
+    "cv_accuracy_percent": 0.761045570205876,
+    "test_accuracy_percent": 0.0
+  },
+  "test_performance": {
+    "Normal": {
+      "precision": 0.9590163934426229,
+      "recall": 0.9915254237288136,
+      "f1_score": 0.975,
+      "support": 118
+    },
+    "MCI": {
+      "precision": 0.8260869565217391,
+      "recall": 0.7037037037037037,
+      "f1_score": 0.76,
+      "support": 27
+    },
+    "Alzheimer's": {
+      "precision": 0.8421052631578947,
+      "recall": 0.8421052631578947,
+      "f1_score": 0.8421052631578947,
+      "support": 19
+    }
+  },
+  "top_10_configurations": [
+    {
+      "rank_test_score": 1,
+      "mean_test_score": 0.9024520009252834,
+      "std_test_score": 0.014705093399630543,
+      "params": {
+        "colsample_bytree": 0.7,
+        "gamma": 0.2,
+        "learning_rate": 0.1,
+        "max_depth": 4,
+        "min_child_weight": 5,
+        "subsample": 0.7
+      }
+    },
+    {
+      "rank_test_score": 2,
+      "mean_test_score": 0.9009368494101319,
+      "std_test_score": 0.017257914621554533,
+      "params": {
+        "colsample_bytree": 0.8,
+        "gamma": 0.2,
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "subsample": 0.7
+      }
+    },
+    {
+      "rank_test_score": 3,
+      "mean_test_score": 0.900913717325931,
+      "std_test_score": 0.01740985570651724,
+      "params": {
+        "colsample_bytree": 0.9,
+        "gamma": 0.1,
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "subsample": 0.7
+      }
+    },
+    {
+      "rank_test_score": 4,
+      "mean_test_score": 0.8994216978949805,
+      "std_test_score": 0.02108113529156402,
+      "params": {
+        "colsample_bytree": 0.7,
+        "gamma": 0,
+        "learning_rate": 0.03,
+        "max_depth": 3,
+        "min_child_weight": 1,
+        "subsample": 0.9
+      }
+    },
+    {
+      "rank_test_score": 5,
+      "mean_test_score": 0.8994101318528799,
+      "std_test_score": 0.020023073826325413,
+      "params": {
+        "colsample_bytree": 0.7,
+        "gamma": 0,
+        "learning_rate": 0.03,
+        "max_depth": 3,
+        "min_child_weight": 1,
+        "subsample": 0.8
+      }
+    },
+    {
+      "rank_test_score": 5,
+      "mean_test_score": 0.8994101318528799,
+      "std_test_score": 0.020023073826325413,
+      "params": {
+        "colsample_bytree": 0.7,
+        "gamma": 0.1,
+        "learning_rate": 0.03,
+        "max_depth": 3,
+        "min_child_weight": 1,
+        "subsample": 0.8
+      }
+    },
+    {
+      "rank_test_score": 5,
+      "mean_test_score": 0.8994101318528799,
+      "std_test_score": 0.020023073826325413,
+      "params": {
+        "colsample_bytree": 0.7,
+        "gamma": 0.2,
+        "learning_rate": 0.03,
+        "max_depth": 3,
+        "min_child_weight": 1,
+        "subsample": 0.8
+      }
+    },
+    {
+      "rank_test_score": 8,
+      "mean_test_score": 0.8993985658107796,
+      "std_test_score": 0.014738677835757273,
+      "params": {
+        "colsample_bytree": 0.7,
+        "gamma": 0.1,
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 5,
+        "subsample": 0.7
+      }
+    },
+    {
+      "rank_test_score": 9,
+      "mean_test_score": 0.8979296784640296,
+      "std_test_score": 0.02635621598293496,
+      "params": {
+        "colsample_bytree": 0.8,
+        "gamma": 0,
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_child_weight": 3,
+        "subsample": 0.9
+      }
+    },
+    {
+      "rank_test_score": 10,
+      "mean_test_score": 0.8979065463798289,
+      "std_test_score": 0.01682370578206658,
+      "params": {
+        "colsample_bytree": 0.9,
+        "gamma": 0,
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_child_weight": 1,
+        "subsample": 0.7
+      }
+    }
+  ],
+  "parameter_importance": {
+    "learning_rate": 0.009261618271227873,
+    "colsample_bytree": 0.004326999158124347,
+    "max_depth": 0.004143663383455155,
+    "subsample": 0.0010184616115033445
+  }
+}
